@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto sans-serif;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.container:nth-child(3), .container:nth-child(3) .card-body {
+    background: lightgray;
+}
